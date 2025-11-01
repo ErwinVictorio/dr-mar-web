@@ -68,7 +68,7 @@ export default function About() {
                 <GraduationCap className="w-6 h-6 text-[#009CFF]" /> Education & Qualifications
               </h3>
               <ul className="space-y-1">
-                <li><strong>Medical Degree (MD):</strong> Stanford University School of Medicine, Magna Cum Laude</li>
+                <li><strong>Medical Degree (MD):</strong> Stanford University School of Medecine, Magna Cum Laude</li>
                 <li><strong>Residency (General Surgery):</strong> Stanford Hospital, CA</li>
                 <li><strong>Board Certification:</strong> American Board of Surgery (ABS), Ranked 2</li>
                 <li><strong>Fellowship:</strong> Fellow of the American College of Surgeons (FACS)</li>
