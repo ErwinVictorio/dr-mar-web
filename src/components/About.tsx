@@ -35,14 +35,14 @@ export default function About() {
                 Biography
               </h3>
               <p className="leading-relaxed">
-                Dr. Mar Co is a highly accomplished, board-certified <strong>General Surgeon</strong> with over
-                <strong> 10 years of experience</strong> in diagnosing and treating a wide range of surgical conditions.
-                Specializing in <strong>laparoscopic and robotic-assisted procedures</strong>, he is renowned for his precision in
+                Dr. Mar Co is a highly accomplished, board-certified General Surgeon with over
+                 10 years of experience in diagnosing and treating a wide range of surgical conditions.
+                Specializing in laparoscopic and robotic-assisted procedures, he is renowned for his precision in
                 minimally invasive gastrointestinal, hernia, and endocrine surgeries.
               </p>
               <p className="leading-relaxed mt-4">
-                Driven by a commitment to <strong>patient safety and rapid recovery</strong>, Dr. Co employs the latest surgical
-                technologies with compassion and effective communication. As <strong>Chief of Surgery at Royal Hospital</strong>,
+                Driven by a commitment to patient safety and rapid recovery, Dr. Co employs the latest surgical
+                technologies with compassion and effective communication. As Chief of Surgery at Royal Hospital,
                 he leads a team dedicated to clinical excellence and innovative surgical practices.
               </p>
             </div>

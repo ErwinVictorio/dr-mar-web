@@ -3,21 +3,25 @@ import Contact from '@/components/Contact'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
+import Testimonials from '@/components/Testimonials'
 
 function Home() {
   return (
-   <>
-    {/*  Header */}
-      <Header/>
+    <>
+      {/*  Header */}
+      <Header />
       {/* Hero Section */}
-      <Hero/>
+      <Hero />
       {/* ABout Section */}
-      <About/>
+      <About />
       {/* Services */}
-      <Services/>
+      <Services />
+      {/* Testimonials */}
+      <Testimonials />
       {/* Contact Section */}
-      <Contact/>
-   </>
+      <Contact />
+
+    </>
   )
 }
 

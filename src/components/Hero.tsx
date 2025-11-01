@@ -1,5 +1,4 @@
 
-import { Button } from "@/components/ui/button";
 import { Stethoscope, HeartPulse, Award } from "lucide-react";
 import doctorImage from "../assets/avatar.png"; // ✅ update with your image path
 
@@ -11,23 +10,23 @@ export default function Hero() {
         {/* LEFT TEXT CONTENT */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Dr. <span className="text-[#009CFF]">Mar Co, MD</span>
+           <span className="text-[#009CFF]">Dr. Mar Co, MD</span>
           </h1>
           <p className="text-[#009CFF] text-lg font-medium mt-2">
             Chief of Surgery – Royal Hospital, London
           </p>
 
           <p className="text-gray-600 mt-6 text-base md:text-lg max-w-lg">
-            A <strong>board-certified General Surgeon</strong> with over <strong>10 years of experience</strong> 
+            A board-certified General Surgeon with over 10 years of experience
             in laparoscopic and robotic-assisted procedures. Renowned for his precision, 
-            compassion, and leadership in <strong>minimally invasive gastrointestinal, hernia, 
-            and endocrine surgeries</strong>.
+            compassion, and leadership in minimally invasive gastrointestinal, hernia, 
+            and endocrine surgeries.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start">
-            <Button className="bg-[#009CFF] hover:bg-[#0085d6] text-white px-6 py-3 rounded-full text-base">
+            <a href="#Services" className="bg-[#009CFF] cursor-pointer hover:bg-[#0085d6] text-white px-6 py-3 rounded-full text-base">
              My Services
-            </Button>
+            </a>
           </div>
 
           {/* Key Highlights */}
