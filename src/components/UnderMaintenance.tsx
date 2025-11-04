@@ -7,7 +7,7 @@ export default function UnderMaintenance() {
   const handleReload = () => window.location.reload()
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 p-4">
+    <div className="flex items-center justify-center min-h-screen bg-linear-to-br from-gray-100 via-gray-200 to-gray-300 p-4">
       <Card className="w-full max-w-md text-center shadow-lg rounded-2xl border border-gray-200 bg-white/90 backdrop-blur">
         <CardContent className="p-8 flex flex-col items-center space-y-6">
           <div className="bg-[#009CFF] p-4 rounded-full">
