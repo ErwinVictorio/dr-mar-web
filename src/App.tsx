@@ -1,7 +1,8 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import UnderMaintenance from './components/UnderMaintenance'
+import HomepPage from './pages/Home'
+
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       } as any)}
     >
       <Routes>
-        <Route path='/' element={<UnderMaintenance />} />
+        <Route path='/' element={<HomepPage />} />
       </Routes>
     </BrowserRouter>
   )

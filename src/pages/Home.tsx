@@ -5,7 +5,7 @@ import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import Testimonials from '@/components/Testimonials'
 
-function Home() {
+function HomepPage() {
   return (
     <>
       {/*  Header */}
@@ -25,4 +25,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomepPage
