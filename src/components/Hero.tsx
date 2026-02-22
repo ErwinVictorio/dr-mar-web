@@ -1,6 +1,6 @@
 
 import { Stethoscope, HeartPulse, Award } from "lucide-react";
-import doctorImage from "../assets/avatar.png"; // ✅ update with your image path
+import doctorImage from "../assets/newAvatar.jpeg"; // ✅ update with your image path
 
 export default function Hero() {
   return (
@@ -52,7 +52,7 @@ export default function Hero() {
             <img
               src={doctorImage}
               alt="Dr. Mar Co"
-              className="w-full h-auto object-cover rounded-full border-[6px] border-[#009CFF]/20 shadow-xl"
+              className="w-full h-auto object-cover rounded-full border-[6px]/20 shadow-xl"
             />
           </div>
         </div>

@@ -1,6 +1,6 @@
 
 import { GraduationCap, Award, Briefcase } from "lucide-react";
-import doctorImage from "../assets/avatar.png"; // ✅ Update with your image path
+import doctorImage from "../assets/newAvatar.jpeg"; // ✅ Update with your image path
 
 export default function About() {
   return (
@@ -23,7 +23,7 @@ export default function About() {
             <img
               src={doctorImage}
               alt="Dr. Mar Co"
-              className="w-[300px] h-[300px] object-cover rounded-2xl shadow-lg border-4 border-[#009CFF]/20"
+              className="w-[300px] h-[300px] object-cover rounded-2xl shadow-lg  /20"
             />
           </div>
 
